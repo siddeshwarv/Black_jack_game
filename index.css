@@ -4,7 +4,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 15%;
   background-image: url("index.jpg");
   background-size: cover;
 }
@@ -27,9 +27,16 @@ p {
 button {
   font-size: 30px;
   padding: 10px 50px;
+  margin: 5px;
+  width: 300px;
   font-weight: bolder;
   color: rgb(0, 123, 10);
   background-color: goldenrod;
   border-radius: 20px;
   border: none;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
